@@ -1,26 +1,36 @@
-# Node modules
+# Dependências
 node_modules/
 
-# Logs
-logs
-*.log
+# Logs e cache
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+logs/
+*.log
 
-# Build
+# Build / saída
 dist/
 build/
+coverage/
 
-# Sistema / editor
-.DS_Store
-Thumbs.db
+# Configurações de editor
 .vscode/
 .idea/
 
-# Coverage (caso use Jest com coverage)
-coverage/
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-# Env files
+# Variáveis de ambiente
 .env
 .env.local
+.env.*.local
+
+# Cache do Jest
+jest-cache/
+jest-results.json
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
