@@ -1,0 +1,12 @@
+{
+  "name": "prova-ci-seu-nome-seu-sobrenome",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "echo \"Build executado com sucesso\""
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
